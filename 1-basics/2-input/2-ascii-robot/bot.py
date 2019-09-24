@@ -1,6 +1,8 @@
-print ("""
+print("Please give my eyes back:")
+eyes = input()
+print("""
       _n____n__
-     /         \\
+     / """ + eyes + "     " + eyes + """ \\
     /___________\\
     _|____|____|_
     _|____|____|_
