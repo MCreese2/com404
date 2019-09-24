@@ -1,3 +1,4 @@
+print("Please give my eyes back:")
 eyes = input()
 print("""
       _n____n__
