@@ -1,11 +1,18 @@
-what_hear = input("What did I hear? ")
-print(what_hear)
+first_name = input("Confirm your first name: ")
+print(first_name)
+second_name = input("Confirm your second name: ")
+print(first_name, second_name)
 
-what_see = input("What did I see? ")
-print(what_see)
+if (first_name == "murray") and (second_name == "creese"):
+    print("Welcome murray creese, please enter your password to proceed")
+    murray_pword = input("Password: ")
+    if (murray_pword == "bob"):
+        print("Access granted, welcome")
+    else:
+        print("Password incorrect")
 
-if (what_hear == "grr") and (what_see == "two red eyes"):
-    print("There is a scary creature. I should get out of here!")
+elif  (first_name == "murray") and (second_name != "creese"):
+    print("murray, your second name does not match our records")
 
 else:
-    print("I am a little scared but will continue!")
+    print ("Credentials not valid")
