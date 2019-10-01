@@ -1,5 +1,5 @@
 look_where = input("Where should I look (bedroom, bathroom or lab)? ")
-print("int the ",look_where)
+print("in the ",look_where)
 
 if (look_where == "bedroom"):
     bedroom_where = input("Where in the bedroom shall I look? ")
@@ -21,6 +21,6 @@ if (look_where == "lab"):
     lab_where = input("Where in the lab shall I look? ")
     print(lab_where)
     if (lab_where == "on the table"):
-        print("Yes! I found my battery!y")
+        print("Yes! I found my battery!")
     else:
         print("Found some tools but no battery.")
