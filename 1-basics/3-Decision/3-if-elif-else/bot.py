@@ -7,3 +7,4 @@ elif (direction == "left"):
     print("I am painting in the left direction!")
 elif (direction == "right"):
     print("I am painting in the right direction!")
+print("I am done Painting!")
