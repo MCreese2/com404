@@ -1,7 +1,7 @@
 user_phrase = input("What phrase do you see? ")
 print(user_phrase)
 print()
-print("Reversing")
+print("Reversing...")
 print()
 
 result = ""
