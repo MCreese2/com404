@@ -4,13 +4,10 @@ print(max_bars, "bars!")
 bars_charged = 0 
 
 while bars_charged < max_bars:
-    # counter
+    # Counter
     bars_charged = bars_charged + 1
     
-    # stack
-    bars = "█" * bars_charged
-    
-    #Display
-    print("Charged:", bars)
+    # Display
+    print("Charged:", ("█" * bars_charged))
 
 print("The battery is fully charged!")
