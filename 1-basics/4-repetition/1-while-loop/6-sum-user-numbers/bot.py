@@ -12,4 +12,4 @@ while numbers_received <= numbers_to_sum:
     numbers_received = numbers_received + 1
     number_sum = number_sum + int(input())
 
-print("The answer is:" + str(number_sum))
+print("The answer is: " + str(number_sum))
