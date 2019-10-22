@@ -10,7 +10,7 @@ def display_in_upper(word):
     print(word.upper())
 
 def display_mirrored(word):
-    print(word, " | ", end="")
+    print(word, " | ")
     for position in range(len(word)-1, -1, -1):
         print(word[position], end="")
 

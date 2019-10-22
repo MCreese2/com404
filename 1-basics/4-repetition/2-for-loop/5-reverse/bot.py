@@ -5,7 +5,7 @@ print("Reversing...")
 word_reverse = str
 
 # /end="" negates the implicit \n which forces the next print onto a new line
-print("The phrase reversed is: ", end="")
+print("The phrase reversed is: ")
 
 # starts at the last letter and works backwards
 # end="" puts the word onto one line, instead of printing each letter on a seperate line
