@@ -24,8 +24,5 @@ class Bot:
     def display_shield(self):
         print("\n" + "=" * (len(str(self.shield_level))+4))
         print("| {} |".format(self.shield_level))
-        print("\\" + "_" * (len(str(self.shield_level))+2) + "/")
+        print("\\" + "_" * (len(str(self.shield_level))+2) + "/\n")
 
-class SuperBot(Bot):
-    def __init__(self, name, age=0, energy=0, shield_level=0, super_power_level)
-    super().__init__
