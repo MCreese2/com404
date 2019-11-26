@@ -4,7 +4,7 @@ class Gui(Tk):
     def __init__(self):
         super().__init__()
 
-        #load resources
+        #load resources (images)
         self.ambulance_image = PhotoImage(file="4-images/1-loading/ambulance.gif")
         self.bike_image = PhotoImage(file="4-images/1-loading/bike.gif")
         self.plane_image = PhotoImage(file="4-images/1-loading/plane.gif")
